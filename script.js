@@ -1,37 +1,37 @@
-// // 1 задание 
+// 1 задание 
 
-// let number = +prompt('Введите до какого числа должны выводиться четные числа:', 0);
+let number = +prompt('Введите до какого числа должны выводиться четные числа:', 0);
 
-//   for (let i = 0; i <= number; i++) {
-//     if (i % 2 === 0) {
-//       console.log(i);
-//     }
-//   }
-
-
-// // 2 задание 
-// let n = +prompt('Введите число:')
-// function isEven() {
-//     return n % 2 === 0 ? true : false;
-// }
-// console.log(isEven());
-
-// // 3 задание 
-
-// const arr = [1, 2, 3];
-
-// for (let i = 0; i < arr.length; i++) {
-//     console.log(arr[i]*2);
-// }
+  for (let i = 0; i <= number; i++) {
+    if (i % 2 === 0) {
+      console.log(i);
+    }
+  }
 
 
-// 4 задание 
+// 2 задание 
+let n = +prompt('Введите число:')
+function isEven() {
+    return n % 2 === 0 ? true : false;
+}
+console.log(isEven());
 
-// let arr = ['C#', 'Python', 'Pascal', 'Java Script', 'HTML'];
+// 3 задание 
 
-// let newArr = arr.filter(str => str.length > 5);
+const arr = [1, 2, 3];
 
-// console.log(newArr);
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]*2);
+}
+
+
+4 задание 
+
+let arr = ['C#', 'Python', 'Pascal', 'Java Script', 'HTML'];
+
+let newArr = arr.filter(str => str.length > 5);
+
+console.log(newArr);
 
 
 // 5 задание 
